@@ -20,7 +20,7 @@
         app:stl_indicatorColor="@android:color/white"
         app:stl_indicatorThickness="6dp"
         app:stl_indicatorWidth="auto"
-        app:stl_indicatorCornerRadius="90dp"
+        app:stl_indicatorCornerRadius="0dp"
         app:stl_overlineColor="#4D000000"
         app:stl_overlineThickness="0dp"
         app:stl_underlineColor="#4D000000"
