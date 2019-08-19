@@ -19,18 +19,53 @@
             android:orientation="vertical">
 
             <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_gradiente">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textColor="@android:color/white"
+                        android:text="Jogos em destaque"/>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
                 android:id="@+id/cardView1"
                 android:background="#d3d3d3"
                 android:layout_gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
                 android:clickable="true"
+                app:cardCornerRadius="5dp"
                 android:foreground="?android:attr/selectableItemBackground"
-                app:cardElevation="0dp">
+                app:cardElevation="4dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@drawable/bg_gradiente"
                     android:orientation="vertical">
 
                     <ImageView
@@ -47,7 +82,7 @@
                         android:layout_marginRight="15dp"
                         android:layout_marginBottom="5dp"
                         android:text="The Legend Of Zelda"
-                        android:textColor="#424242"
+                        android:textColor="@android:color/white"
                         android:textSize="20sp" />
 
                     <TextView
@@ -57,7 +92,7 @@
                         android:layout_marginRight="15dp"
                         android:layout_marginBottom="10dp"
                         android:text="Breath Of The Wild"
-                        android:textColor="#616161"
+                        android:textColor="@android:color/white"
                         android:textSize="18sp" />
 
 
@@ -71,21 +106,26 @@
                 android:layout_gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="5dp"
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
-                app:cardElevation="0dp">
+                app:cardElevation="4dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bg_gradiente"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/forza4" />
+                        android:src="@drawable/urus_min" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -95,7 +135,7 @@
                         android:layout_marginRight="15dp"
                         android:layout_marginBottom="5dp"
                         android:text="Forza Horizon 4"
-                        android:textColor="#424242"
+                        android:textColor="@android:color/white"
                         android:textSize="20sp" />
 
                     <TextView
@@ -105,7 +145,7 @@
                         android:layout_marginRight="15dp"
                         android:layout_marginBottom="10dp"
                         android:text="Veja novas espansões"
-                        android:textColor="#616161"
+                        android:textColor="@android:color/white"
                         android:textSize="18sp" />
 
 
@@ -119,20 +159,23 @@
                 android:layout_gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="20dp"
                 android:clickable="true"
+                app:cardCornerRadius="5dp"
                 android:foreground="?android:attr/selectableItemBackground"
-                app:cardElevation="0dp">
+                app:cardElevation="4dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@drawable/bg_gradiente"
                     android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/pokemon" />
+                        android:src="@drawable/pokemon_ss" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -141,8 +184,8 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="15dp"
                         android:layout_marginBottom="5dp"
-                        android:text="Pokémon Sword and Shield"
-                        android:textColor="#424242"
+                        android:text="Pokémon"
+                        android:textColor="@android:color/white"
                         android:textSize="20sp" />
 
                     <TextView
@@ -151,8 +194,8 @@
                         android:layout_marginLeft="15dp"
                         android:layout_marginRight="15dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Novas mecâncicas e novos pokémon"
-                        android:textColor="#616161"
+                        android:text="Sword and Shield"
+                        android:textColor="@android:color/white"
                         android:textSize="18sp" />
 
 
@@ -166,13 +209,19 @@
                 android:layout_gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="5dp"
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
-                app:cardElevation="0dp">
+                app:cardElevation="4dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@drawable/bg_gradiente"
                     android:orientation="vertical">
 
                     <ImageView
@@ -188,8 +237,8 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="15dp"
                         android:layout_marginBottom="5dp"
-                        android:text="Naruto Storm Shippuden 4"
-                        android:textColor="#424242"
+                        android:text="Naruto Shippuden"
+                        android:textColor="@android:color/white"
                         android:textSize="20sp" />
 
                     <TextView
@@ -198,8 +247,8 @@
                         android:layout_marginLeft="15dp"
                         android:layout_marginRight="15dp"
                         android:layout_marginBottom="10dp"
-                        android:text="Mais de 100 personagens jogáveis"
-                        android:textColor="#616161"
+                        android:text="Ultimate Ninja Storm 4"
+                        android:textColor="@android:color/white"
                         android:textSize="18sp" />
 
 
