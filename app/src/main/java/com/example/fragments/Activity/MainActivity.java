@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         getSupportActionBar().setElevation(0);
-        getSupportActionBar().setTitle("Notícias Já");
+        getSupportActionBar().setTitle("Games");
 
 
         viewPager = findViewById(R.id.viewPager);
